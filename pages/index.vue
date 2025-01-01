@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen bg-background text-foreground dark">
+  <div class="min-h-screen bg-background text-foreground">
     <!-- Gradient background -->
     <div class="fixed inset-0 -z-10">
       <div
@@ -243,35 +243,9 @@ const socials = [
 </script>
 
 <style>
-/* :root {
-  --background: 240 10% 3.9%;
-  --foreground: 0 0% 98%;
-  --card: 240 10% 3.9%;
-  --card-foreground: 0 0% 98%;
-  --popover: 240 10% 3.9%;
-  --popover-foreground: 0 0% 98%;
-  --primary: 0 0% 98%;
-  --primary-foreground: 240 5.9% 10%;
-  --secondary: 240 3.7% 15.9%;
-  --secondary-foreground: 0 0% 98%;
-  --muted: 240 3.7% 15.9%;
-  --muted-foreground: 240 5% 64.9%;
-  --accent: 240 3.7% 15.9%;
-  --accent-foreground: 0 0% 98%;
-  --destructive: 0 62.8% 30.6%;
-  --destructive-foreground: 0 0% 98%;
-  --border: 240 3.7% 15.9%;
-  --input: 240 3.7% 15.9%;
-  --ring: 240 4.9% 83.9%;
-} */
-
 .bg-grid-pattern {
   background-size: 40px 40px;
   background-image: linear-gradient(to right, rgb(255 255 255 / 0.05) 1px, transparent 1px),
     linear-gradient(to bottom, rgb(255 255 255 / 0.05) 1px, transparent 1px);
-}
-
-html {
-  scroll-behavior: smooth;
 }
 </style>
