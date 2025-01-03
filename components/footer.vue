@@ -17,24 +17,24 @@ import {
 const socials = [
   {
     name: 'GitHub',
-    url: 'https://github.com/yourusername',
+    url: 'https://github.com/kevinhongw',
     icon: GithubIcon
   },
   {
     name: 'LinkedIn',
-    url: 'https://linkedin.com/in/yourusername',
+    url: 'https://www.linkedin.com/in/kevinhongw',
     icon: LinkedinIcon
   },
-  {
-    name: 'Twitter',
-    url: 'https://twitter.com/yourusername',
-    icon: TwitterIcon
-  },
-  {
-    name: 'Instagram',
-    url: 'https://instagram.com/yourusername',
-    icon: InstagramIcon
-  }
+  // {
+  //   name: 'Twitter',
+  //   url: 'https://twitter.com/yourusername',
+  //   icon: TwitterIcon
+  // },
+  // {
+  //   name: 'Instagram',
+  //   url: 'https://instagram.com/yourusername',
+  //   icon: InstagramIcon
+  // }
 ]
 </script>
 <template>
