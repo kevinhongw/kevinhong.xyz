@@ -1,7 +1,7 @@
 <script setup>
 const mobileMenuOpen = ref(false)
 
-const navItems = ['Home', 'About', 'Experience', 'Blog']
+const navItems = ['About', 'Experiences', 'Projects', 'Blog']
 
 const navigateMobile = (page) => {
   // currentPage.value = page
@@ -25,11 +25,11 @@ const toggleTheme = () => { }
 
         <!-- Desktop Navigation -->
         <div class="hidden sm:flex sm:items-center sm:space-x-4">
-          <button v-for="item in navItems" :key="item" @click="currentPage = item.toLowerCase()" :class="[
+          <button v-for="item in navItems" :key="item" @click="navigateTo(item.toLowerCase())" :class="[
             'px-3 py-2 rounded-md text-sm font-medium transition-colors',
-            currentPage === item.toLowerCase()
-              ? 'bg-primary/10 text-primary'
-              : 'text-muted-foreground hover:text-primary hover:bg-primary/5'
+            // currentPage === item.toLowerCase()
+            //   ? 'bg-primary/10 text-primary'
+            //   : 'text-muted-foreground hover:text-primary hover:bg-primary/5'
           ]">
             {{ item }}
           </button>
@@ -63,9 +63,9 @@ const toggleTheme = () => { }
       <div class="px-2 pt-2 pb-3 space-y-1">
         <button v-for="item in navItems" :key="item" @click="navigateMobile(item.toLowerCase())" :class="[
           'w-full px-3 py-2 rounded-md text-sm font-medium text-left transition-colors',
-          currentPage === item.toLowerCase()
-            ? 'bg-primary/10 text-primary'
-            : 'text-muted-foreground hover:text-primary hover:bg-primary/5'
+          // currentPage === item.toLowerCase()
+          //   ? 'bg-primary/10 text-primary'
+          //   : 'text-muted-foreground hover:text-primary hover:bg-primary/5'
         ]">
           {{ item }}
         </button>

@@ -16,7 +16,7 @@ import {
               class="absolute -inset-0.5 bg-gradient-to-r from-primary/50 to-primary/30 rounded-full blur opacity-50 group-hover:opacity-75 transition duration-500">
             </div>
             <div class="relative w-48 h-48 md:w-56 md:h-56 rounded-full overflow-hidden border-2 border-border/50">
-              <img src="/assets/portrait.jpg" alt="Kevin Hong"
+              <img src="~/assets/portrait.jpg" alt="Kevin Hong"
                 class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
             </div>
           </div>
@@ -63,7 +63,5 @@ import {
         </button>
       </div>
     </div>
-
-    <Footer />
   </main>
 </template>

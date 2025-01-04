@@ -25,20 +25,10 @@ const socials = [
     url: 'https://www.linkedin.com/in/kevinhongw',
     icon: LinkedinIcon
   },
-  // {
-  //   name: 'Twitter',
-  //   url: 'https://twitter.com/yourusername',
-  //   icon: TwitterIcon
-  // },
-  // {
-  //   name: 'Instagram',
-  //   url: 'https://instagram.com/yourusername',
-  //   icon: InstagramIcon
-  // }
 ]
 </script>
 <template>
-  <footer class="py-6 border-t border-border/40">
+  <footer class="py-12 border-t border-border/40 z-10">
     <div class="flex justify-center items-center gap-6">
       <a v-for="social in socials" :key="social.name" :href="social.url" target="_blank" rel="noopener noreferrer"
         class="text-muted-foreground hover:text-primary transition-colors" :aria-label="social.name">
