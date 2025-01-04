@@ -106,7 +106,7 @@ const experiences = [
         <div v-for="(experience, index) in experiences" :key="index"
           class="rounded-xl border border-border/50 bg-card/50 backdrop-blur-sm text-card-foreground p-6 hover:border-border/80 transition-all hover:shadow-lg">
           <div class="flex flex-col sm:flex-row sm:items-center gap-4 mb-4">
-            <div class="w-12 h-12 rounded-[50%] border border-border/50 bg-card p-2 flex items-center justify-center">
+            <div class="w-16 h-16 rounded-[50%] border border-border/50 bg-card p-2 flex items-center justify-center">
               <NuxtImg :src="`images/${experience.imagePath}`" :alt="`${experience.company} logo`"
                 class="w-full h-full object-contain" />
             </div>
